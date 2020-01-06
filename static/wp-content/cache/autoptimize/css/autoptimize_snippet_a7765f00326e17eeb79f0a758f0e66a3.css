@@ -1,0 +1,37 @@
+:after, :before {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+.site-logo {margin-bottom: 10px;}
+.site-logo:after {content: "";background: url("//hopeislandhandyman.com.au/wp-content/themes/hope-island-handyman/images/phone.png") no-repeat;width: 180px;height: 37px;position: absolute;bottom: 0;left: 50%;margin-left: -90px;}
+.separate-containers .site-main {margin-top: 0;}
+.separate-containers .inside-article {padding-top: 0;}
+h2:before {content: "";background: url("//hopeislandhandyman.com.au/wp-content/themes/hope-island-handyman/images/underline.png") no-repeat;width: 70px;height: 8px;position: absolute;bottom: -22px;left: 50%;margin-left: -40px;}
+.about-us h2:before {left: 0;margin-left: 0;}
+.about-us .wp-block-media-text__content {padding-top: 30px;}
+.wp-block-group__inner-container {padding-left: 0;padding-right: 0;}
+.home .entry-content>[class*=wp-block-]:not(:last-child) {margin-bottom: 0;}
+.portfolio .wp-block-gallery {padding-top: 20px;}
+.top-p {padding-top: 20px;}
+.portfolio h2, .services h2, .about-us h2, .contact-me h2 {position: relative;text-transform: uppercase;font-weight: 700;}
+.portfolio h2, .services h2 {text-align: center;}
+.portfolio h2, .services h2 strong, .about-us h2 strong {color: #fdc236;}
+.portfolio h2:before, .services h2:before {background: url("//hopeislandhandyman.com.au/wp-content/themes/hope-island-handyman/images/underline.png") no-repeat;}
+.serviceList {list-style: none;color: #3a3a3a;}
+.service-wrap h3 {margin-top: 0;min-height: 52px;}
+.service-wrap h3 a {font-size: 22px;text-decoration: none;color: #000;}
+.service-wrap h1 {margin-bottom: 30px;margin-top: 0;}
+.service-details {background: #fff;padding: 15px 15px 25px;}
+.service-details h3 {margin-top: 10px;}
+.readmore a {position: relative;vertical-align: middle;z-index: 1000;background: #fdc236;color: #fff !important;text-shadow: 0 0 2px rgba(0,0,0,.07);text-decoration: none;font-size: 16px;text-transform: uppercase;font-weight: 700;padding: 12px 30px;display: inline-block;}
+.readmore a:hover {color: #fff !important;background: #000;}
+.single-service {border: 1px solid #eee;padding: 25px;background: #fff;}
+.single-service:hover .service-icon {color: #fff;background: #fdc236;}
+.service-icon {font-size: 44px;background: #fff;border: 1px solid #eee;width: 80px;height: 80px;text-align: center;line-height: 80px;margin-top: -46px;float: left;margin-right: 15px;}
+.service-wrap p {margin-top: 8px;}
+.serviceList li {margin-top: 60px;height: 260px;}
+.grid-spacer {width: 16.667%;}
+p.contact-ph:after {content: "";background: url("//hopeislandhandyman.com.au/wp-content/themes/hope-island-handyman/images/phone.png") no-repeat;display: inline-block;vertical-align: middle;width: 300px;height: 20px;background-size: contain;}
+.ph-mes figure {text-align: center;}
+.wp-block-media-text.ph-mes>figure>img {width: auto;}
+@media (max-width:1024px) {.grid-spacer {display: none;}}
+@media (max-width:768px) {.wp-block-cover.serv-back .wp-block-cover__inner-container {width: 100%;}}
+@media (min-width:624px) and (max-width:1024px) {.serviceList li {width: 50%;float: left;}
+	.wp-block-cover-image .wp-block-cover__inner-container, .wp-block-cover .wp-block-cover__inner-container {width: 100%;}}
